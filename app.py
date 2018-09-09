@@ -49,6 +49,7 @@ def update_task(task_id):
             'is_urgent': request.form.get('is_urgent'),
         })
     return redirect(url_for('get_tasks'))
+    # <! -- forgot to make a comment in git commit for this new route/function -->
 
 
 if __name__ == '__main__':
