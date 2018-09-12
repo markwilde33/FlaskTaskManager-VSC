@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 app = Flask(__name__)
 app.config["MONGO_DBNAME"] = 'task_manager'
-app.config["MONGO_URI"] = "mongodb://localhost:27017/task_manager"
+app.config["MONGO_URI"] = 'mongodb://admin:millie33@ds125372.mlab.com:25372/task_manager'
 
 mongo = PyMongo(app)
 
